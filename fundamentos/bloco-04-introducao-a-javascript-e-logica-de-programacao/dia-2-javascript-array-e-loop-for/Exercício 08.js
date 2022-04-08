@@ -4,7 +4,11 @@ let numbers = []
 
 let contador = 0;
 
-for(let index = 0; index < numbers.length; index +=){
-    if(numbers[index] < contador)
+for(let index = 0; index < numbers.length; index += 1){
+    if(numbers[index] <= contador){
+        contador += 1
     }
+    numbers.push(contador)
 }
+
+console.log(numbers);
