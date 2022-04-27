@@ -33,4 +33,3 @@ termine oque você começou. Isso envolve responsabilidade, organização, foco,
 1. Preciso organizar meu tempo para não ficar sem ele kkk
 2. Eu sou o meu próprio motivador. As outras pessoas não estão em seu lugar, por isso não sabem oque estou está passando.
 3. Não abandone seus princípios. Seja coerente com oque acredita.
-

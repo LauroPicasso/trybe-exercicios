@@ -1,0 +1,9 @@
+Sou o Lauro, tenho 29 anos, casado com uma indígena, e por conta disso moro em uma aldeia no Arraial d'Ajuda, distrito da cidade de Porto Seguro - BA. Me considero uma pessoa calma, tranquilo, agitado apenas quando necessário.
+
+
+
+Embora nascido neste mundo, meu pai me fala que não sou daqui. Estou me preparando para me mudar para onde ele está. Espero em breve que poder morarmos todo mundo junto, incluindo as pessoas que amo.
+
+
+
+O mais importante para mim é o amor s2.
