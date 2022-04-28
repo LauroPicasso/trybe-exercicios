@@ -1,0 +1,30 @@
+body {
+  background-color: #001e27;
+  margin: 40px auto;
+  max-width: 80%;
+  color: #00e2f4;
+}
+
+h1 {
+  color: #00e2f4;
+}
+
+label, p {
+  font-weight: bold;
+}
+
+.btcolor {
+  background-color: #d8fe00;
+  border: #d8fe00;
+  color: #001e27;
+  margin-right: 50px;
+
+  border-radius: 40px;
+  font-weight: 600;
+  line-height: 16px;
+  padding: 10px 30px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-align: center;
+  text-decoration: none;
+}
