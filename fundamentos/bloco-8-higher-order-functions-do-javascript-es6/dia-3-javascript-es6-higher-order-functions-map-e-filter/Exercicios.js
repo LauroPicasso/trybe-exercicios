@@ -104,10 +104,43 @@ function oldBooksOrdered() {
   return books.filter((book) => 2022 - book.releaseYear > 60).sort((a, b) => a.releaseYear - b.releaseYear)
 }
 
-console.log(oldBooksOrdered());
+// console.log(oldBooksOrdered());
 
 // 🚀 5 - Crie um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
 
 function fantasyOrScienceFictionAuthors() {
-  fantasyOrScienceFiction().sort
+  return fantasyOrScienceFiction().map((author) => author.author.name).sort()
 }
+
+// console.log(fantasyOrScienceFictionAuthors());
+
+
+
+// 🚀 6 - Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
+
+function oldBooks() {
+  // return oldBooksOrdered().map((book) => book.name)
+  const anoAtual = new Date().getFullYear();
+  return books.filter((book) => anoAtual - book.releaseYear > 60).map((book) => book.name)
+}
+
+// console.log(oldBooks());
+
+// 7 - Encontre o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais.
+// Dica: cada inicial termina com um ponto.
+
+function authorWith3DotsOnName() {
+  return books.filter((book) => book.author.name[1] === '.' 
+  && book.author.name[4] === '.'
+  && book.author.name[7] === '.'
+  )[0].name
+}
+
+// function authorWith3DotsOnName() {
+//   return books.find((book) => (
+//     book.author.name.split(' ')
+//       .filter((word) => word.endsWith('.')).length === 3
+//   ))
+// }
+
+console.log(authorWith3DotsOnName());
